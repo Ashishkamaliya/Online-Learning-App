@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">NeatLearn</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Your_Learning_fragment">Your Learning Page</string>
+
+    <string name="about_us">NeatLearn app is developed for those student/learners who wants to know about programming languages and who wants to get familier with coding.</string>
+
+    <string name="CPP_1">https://neatlearn.000webhostapp.com/sub_topics/CPP/Introduction.php</string>
+
+    <string name="CPP_2">https://neatlearn.000webhostapp.com/sub_topics/CPP/Variables.php</string>
+    <string name="CPP_3">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="CPP_4">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="CPP_5">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="CPP_6" translatable="false">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="CPP_7">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="CPP_8">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="CPP_9">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="CPP_10">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="CPP_11">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="CPP_12">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="CPP_13">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="CPP_14">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="CPP_15">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="CPP_16">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="CPP_17">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="CPP_18">https://neatlearn.000webhostapp.com/notFound.php</string>
+
+    <string name="JAVA_1">Introduction String..</string>
+    <string name="JAVA_2">Variable String..</string>
+    <string name="JAVA_3">Data Types String..</string>
+    <string name="JAVA_4">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="JAVA_5">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="JAVA_6">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="JAVA_7">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="JAVA_8">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="JAVA_9">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="JAVA_10">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="JAVA_11">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="JAVA_12">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="JAVA_13">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="JAVA_14">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="JAVA_15">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="JAVA_16">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="JAVA_17">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="JAVA_18">https://neatlearn.000webhostapp.com/notFound.php</string>
+
+    <string name="CS_1">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="CS_2">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="CS_3">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="CS_4">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="CS_5">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="CS_6">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="CS_7">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="CS_8">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="CS_9">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="CS_10">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="CS_11">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="CS_12">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="CS_13">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="CS_14">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="CS_15">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="CS_16">https://neatlearn.000webhostapp.com/notFound.php</string>
+
+    <string name="HTML_1">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="HTML_2">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="HTML_3">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="HTML_4">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="HTML_5">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="HTML_6">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="HTML_7">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="HTML_8">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="HTML_9">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="HTML_10">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="HTML_11">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="HTML_12">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="HTML_13">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="HTML_14">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="HTML_15">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="HTML_16">https://neatlearn.000webhostapp.com/notFound.php</string>
+
+    <string name="PYTHON_1">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="PYTHON_2">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="PYTHON_3">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="PYTHON_4">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="PYTHON_5">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="PYTHON_6">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="PYTHON_7">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="PYTHON_8">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="PYTHON_9">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="PYTHON_10">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="PYTHON_11">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="PYTHON_12">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="PYTHON_13">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="PYTHON_14">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="PYTHON_15">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="PYTHON_16">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="PYTHON_17">https://neatlearn.000webhostapp.com/notFound.php</string>
+
+    <string name="PHP_1">Introduction String..</string>
+    <string name="PHP_2">Install String..</string>
+    <string name="PHP_3">Variables String..</string>
+    <string name="PHP_4">Data types String..</string>
+    <string name="PHP_5">https://neatlearn.000webhostapp.com/notFound.php</string>
+    <string name="PHP_6">Condition String..</string>
+    <string name="PHP_7">Loop String..</string>
+    <string name="PHP_8">Array String..</string>
+    <string name="PHP_9">Cookie String..</string>
+    <string name="PHP_10">Session String..</string>
+    <string name="PHP_11">Form String..</string>
+    <string name="PHP_12">Class String..</string>
+    <string name="PHP_13">Access Specifier String..</string>
+    <string name="PHP_14">Constructor String..</string>
+    <string name="PHP_15">Destructor String..</string>
+    <string name="PHP_16">Abstraction String..</string>
+    <string name="PHP_17">Inheritance String..</string>
+    <string name="PHP_18">Encapsulation String..</string>
+    <string name="PHP_19">Polymorphism String..</string>
+    <string name="PHP_20">Files String..</string>
+    <string name="PHP_21">Excption String..</string>
+
+
+</resources>

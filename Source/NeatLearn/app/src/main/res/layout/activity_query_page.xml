@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".neatLearn.query_page">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Send Message"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#323232"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Insert details"
+                android:layout_margin="5dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/round_back_dark_blue5_15"
+                android:hint="Full Name"
+                android:id="@+id/editFullName"
+                android:maxLines="1"
+                android:inputType="text"
+                android:textSize="16dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="40dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/round_back_dark_blue5_15"
+                android:hint="Email"
+                android:id="@+id/editEmail"
+                android:maxLines="1"
+                android:inputType="text"
+                android:textSize="16dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="30dp"
+                />
+
+            <EditText
+                android:id="@+id/editMessage"
+                android:layout_width="match_parent"
+                android:layout_height="164dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/round_back_dark_blue5_15"
+                android:hint="How can we help you?"
+                android:inputType="textMultiLine"
+                android:maxLines="20"
+                android:gravity="top"
+                android:paddingTop="10dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:singleLine="false"
+                android:textSize="16dp" />
+
+
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:text="Message"
+                android:id="@+id/buttonSend"
+                android:textAllCaps="true"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/round_back_primary_15"
+                android:textColor="#FFFFFF"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

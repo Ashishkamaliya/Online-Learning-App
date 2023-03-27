@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfile">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Update Profile"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#323232"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Fill items properly"
+                android:layout_margin="5dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/round_back_dark_blue5_15"
+                android:hint="Full Name"
+                android:id="@+id/editFullName"
+                android:maxLines="1"
+                android:inputType="text"
+                android:textSize="16dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="40dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/round_back_dark_blue5_15"
+                android:hint="Email"
+                android:id="@+id/editEmail"
+                android:maxLines="1"
+                android:inputType="text"
+                android:textSize="16dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="30dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/round_back_dark_blue5_15"
+                android:hint="Mobile"
+                android:id="@+id/editMobile"
+                android:maxLines="1"
+                android:inputType="phone"
+                android:textSize="16dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="30dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/round_back_dark_blue5_15"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gender"
+                    android:textSize="16dp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="10dp">
+
+                    <RadioButton
+                        android:id="@+id/rButtonMale"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:outlineSpotShadowColor="@color/appcolor"
+                        android:selectAllOnFocus="true"
+                        android:shadowColor="@color/appcolor"
+                        android:text="Male"
+                        android:textColor="#686868"
+                        android:textSize="16dp" />
+
+                    <RadioButton
+                        android:id="@+id/rButtonFemale"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:outlineSpotShadowColor="@color/appcolor"
+                        android:selectAllOnFocus="true"
+                        android:shadowColor="@color/appcolor"
+                        android:text="Female"
+                        android:textColor="#686868"
+                        android:textSize="16dp" />
+
+                    <RadioButton
+                        android:id="@+id/rButtonOther"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:outlineSpotShadowColor="@color/appcolor"
+                        android:selectAllOnFocus="true"
+                        android:shadowColor="@color/appcolor"
+                        android:text="Other"
+                        android:textColor="#686868"
+                        android:textSize="16dp" />
+                </RadioGroup>
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/editImage"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/round_back_dark_blue5_15"
+                android:hint="Image Path"
+                android:maxLines="1"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:textSize="16dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:text="Update"
+                android:id="@+id/buttonUpdate"
+                android:textAllCaps="true"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/round_back_primary_15"
+                android:textColor="#FFFFFF"
+                />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

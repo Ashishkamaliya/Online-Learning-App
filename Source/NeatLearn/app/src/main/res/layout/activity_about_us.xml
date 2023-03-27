@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".neatLearn.AboutUs">
+
+    <TextView
+        android:id="@+id/txtabout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:text="About"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#6C6C6C"
+        android:layout_margin="10dp"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/aboutText"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:text="@string/about_us"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/txtabout"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/txtdeveloper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="TODO"
+        android:scaleType="centerCrop"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Developed By : Ashish Kamaliya"
+        android:layout_below="@+id/aboutText"
+        android:textColor="#6C6C6C"
+        android:textSize="20sp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/txtdeveloper"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        app:cardCornerRadius="12dp"
+        android:elevation="12dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="16dp">
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="22dp"
+                android:layout_marginLeft="22dp"
+                android:text="Contact Us"
+                android:textColor="#4E4E4E"
+                android:textSize="28sp" />
+
+            <View
+                android:id="@+id/line_view"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_below="@id/contact"
+                android:layout_marginStart="18dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="36dp"
+                android:layout_marginRight="36dp"
+                android:background="#4E4E4E" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginStart="22dp"
+                android:layout_below="@id/line_view"
+                android:layout_marginTop="16dp">
+
+                <ImageView
+                    android:id="@+id/imgg"
+                    android:layout_width="30dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/baseline_phone_24"
+                    android:contentDescription="TODO" />
+
+                <LinearLayout
+                    android:id="@+id/lin_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/imgg"
+                    android:layout_toRightOf="@id/imgg"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="0dp"
+                        android:text="Phone no"
+                        android:textStyle="bold"
+                        android:textColor="#4E4E4E"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/call"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="8dp"
+                        android:text="7434992447"
+                        android:textColor="#717171"
+                        android:textColorHighlight="@android:color/holo_red_dark"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/img_mob"
+                    android:layout_width="30dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@id/lin_1"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/baseline_mail"
+                    android:contentDescription="TODO" />
+                <LinearLayout
+                    android:id="@+id/lin_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_below="@id/lin_1"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/img_mob"
+                    android:layout_toEndOf="@id/img_mob">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginLeft="12dp"
+                        android:textSize="16sp"
+                        android:layout_marginTop="0dp"
+                        android:textColor="#4E4E4E"
+                        android:text="Email address" />
+
+                    <TextView
+                        android:id="@+id/feedback"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="8dp"
+                        android:text="nearlearn@gmail.com"
+                        android:textColor="#717171"
+                        android:textColorHighlight="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/mail_img"
+                    android:layout_width="30dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@id/lin_2"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/baseline_message_24"
+                    android:contentDescription="TODO" />
+
+                <LinearLayout
+                    android:id="@+id/lin_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_below="@id/lin_2"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/mail_img"
+                    android:layout_toEndOf="@id/mail_img"
+                    >
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="0dp"
+                        android:textSize="16sp"
+                        android:textColor="#4E4E4E"
+                        android:text="Message" />
+
+                    <TextView
+                        android:id="@+id/send_your_message"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Send your message"
+                        android:textColor="#717171"
+                        android:textColorHighlight="@color/black"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="10dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_marginTop="250dp"
+                        android:id="@+id/imgProfile"
+                        android:orientation="horizontal"
+                        android:gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/linkedin"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/icon_linkedin" />
+
+                        <ImageView
+                            android:id="@+id/instagram"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:contentDescription="TODO"
+                            android:src="@drawable/icon_instagram" />
+
+                        <ImageView
+                            android:id="@+id/website"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:contentDescription="TODO"
+                            android:src="@drawable/icon_internet" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
