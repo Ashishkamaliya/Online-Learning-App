@@ -46,25 +46,31 @@ students who learning programming.
  
  ❖Client Side:
 
+
 ▪ Login
 
 ![Screenshot_2023-02-24-20-58-07-93_2d6f029f5210a26350767e1b3eb5e718](https://user-images.githubusercontent.com/118722790/227844223-10f48e2c-6be5-4755-845d-1bd7eec1c619.jpg)
+
 
 ▪ Register
 
 ![Screenshot_2023-02-24-20-58-25-21](https://user-images.githubusercontent.com/118722790/227844282-b03b6df3-c0b9-4093-a37e-66522ff826c1.jpg)
 
+
 ▪ Home
 
 ![Screenshot_2023-02-24-20-53-42-69_2d6f029f5210a26350767e1b3eb5e718](https://user-images.githubusercontent.com/118722790/227843423-7d38dd24-f537-4464-861b-e3b78485d3a0.jpg)
+
 
 ▪ Search
 
 ![Screenshot_2023-02-24-20-57-08-98_2d6f029f5210a26350767e1b3eb5e718](https://user-images.githubusercontent.com/118722790/227844042-30d20c07-8f70-4f93-abf5-457ee497db9f.jpg)
 
+
 ▪ New Released
 
 ![Screenshot_2023-02-24-20-53-53-53_2d6f029f5210a26350767e1b3eb5e718](https://user-images.githubusercontent.com/118722790/227843489-dd211c70-d7fd-4856-bc2e-cb9a969df47b.jpg)
+
 
 ▪ Profile
 
@@ -75,20 +81,35 @@ students who learning programming.
 
 ![Screenshot_2023-02-24-20-54-02-11_2d6f029f5210a26350767e1b3eb5e718](https://user-images.githubusercontent.com/118722790/227843532-9adea154-49c2-468f-9640-24234888bf25.jpg)
 
+
 ▪ About Us
 
 ![Screenshot_2023-02-24-20-55-28-45_2d6f029f5210a26350767e1b3eb5e718](https://user-images.githubusercontent.com/118722790/227843840-462f3cc6-1109-4a5c-bf4d-b54921555aa4.jpg)
 
+
 ❖Admin Side:
 
-▪ DashboardStudent List
+▪ Dashboard
+
+![Screenshot (15)](https://user-images.githubusercontent.com/118722790/227846459-c9cd8126-de7b-4531-8a82-d2a35d7ffada.png)
 
 
+▪ Students List
 
-▪ Add Subject / View Subjects
 
+![Screenshot (16)](https://user-images.githubusercontent.com/118722790/227846466-4e109498-b906-452f-bf02-9e6b80a70333.png)
+
+▪ Add Subject
+
+![Screenshot (17)](https://user-images.githubusercontent.com/118722790/227846446-53ff7a79-082c-473a-88c6-16cd0405c10c.png)
+
+
+▪ View Subjects
+
+![Screenshot (18)](https://user-images.githubusercontent.com/118722790/227846452-d770e5a7-c26d-40c5-ada0-97909a9df502.png)
 
 
 ▪ Messages
 
+![Screenshot (19)](https://user-images.githubusercontent.com/118722790/227846455-be1bfb38-4d3d-4e1f-ba09-7d24d03dc542.png)
 
